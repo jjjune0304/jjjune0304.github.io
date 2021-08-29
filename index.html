@@ -389,8 +389,9 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-ai">AI</li>
+            <li data-filter=".filter-cv">CV</li>
             <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-ds">DS</li>
           </ul>
         </div>
       </div>
@@ -398,7 +399,7 @@
       <div class="row portfolio-container">
       
         <!-- unsupervised clustering -->
-        <div class="portfolio-item filter-ai ">
+        <div class="portfolio-item filter-cv ">
           <div class="portfolio-wrap card d-flex flex-row align-items-center">
             <div class="col-3 offset-1 text-center">
               <img data-gallery="portfolioGallery" class="portfolio-lightbox rounded" 
@@ -426,7 +427,7 @@
         </div>
 
         <!-- zero-shot learning -->
-        <div class="portfolio-item filter-ai ">
+        <div class="portfolio-item filter-cv ">
           <div class="portfolio-wrap card d-flex flex-row align-items-center">
             <div class="col-3 offset-1 text-center">
               <img data-gallery="portfolioGallery" class="portfolio-lightbox rounded" 
@@ -455,7 +456,7 @@
         </div>
 
         <!-- MemBooster -->
-        <div class="portfolio-item filter-ai ">
+        <div class="portfolio-item filter-cv ">
           <div class="portfolio-wrap card d-flex flex-row align-items-center">
             <div class="col-3 offset-1 text-center">
               <!-- <img class="rounded" src="assets/img/projects/batman/model.png" style="width: 45%"> -->
@@ -489,7 +490,7 @@
         </div>
 
         <!-- be a batman -->
-        <div class="portfolio-item filter-ai ">
+        <div class="portfolio-item filter-cv ">
           <div class="portfolio-wrap card d-flex flex-row align-items-center">
             <div class="col-3 offset-1 text-center">
               <!-- <img class="rounded" src="assets/img/projects/batman/model.png" style="width: 45%"> -->
@@ -540,7 +541,7 @@
             </div>
             <div class="col-3 offset-1 card-body portfolio-content">
               <h5><strong>Epistemology+</strong></h5>
-              <p><span class="time">May 2021 - Present</span></p>
+              <p><span class="time">May 2021 - Jun 2021</span></p>
               <p><em>Team Project (2021 Spring, Web Programming)</em></p>
               <p>Full-Stack Web Development</p>
               <ul>
@@ -609,9 +610,75 @@
             </div>
           </div>
         </div>
+      
+      <!-- tajectory analysis -->
+        <div class="portfolio-item filter-ds">
+          <div class="portfolio-wrap card d-flex flex-row align-items-center">
+            <div class="col-3 offset-1 text-center">
+              <img data-gallery="portfolioGallery" class="portfolio-lightbox rounded" 
+                src="assets/img/projects/trajectory/visualization.png" style="width: 100%">
+            </div>
+            <div class="col-3 offset-1 card-body portfolio-content">
+              <h5><strong>Trajectory Analysis</strong></h5>
+              <p><span class="time">Mar 2019 - Apr 2019</span></p>
+              <p><em>Team Project (2019 Spring, Machine Learning )</em></p>
+              <p>Regression Problem</p>
+              <ul>
+                <li>Given the 10,000 features extracted from each diffusion trajectory, the goal is to infer three attributes that is used for trajectory simulation</li>
+                <li>Apply data preprocessing and feature selection condidering large dimensionality of data</li>
+                <li>Build three models utilizing MLP/LightGBM/XGBoost respectively to predict target values</li>
+              </ul>
+              <p>
+                <span class="badge rounded-pill bg-secondary">sickit-learn</span>
+                <span class="badge rounded-pill bg-secondary">LightGBM</span>
+                <span class="badge rounded-pill bg-secondary">XGBoost</span>
+              </p>
+              <div class="portfolio-links align-content-center">
+                <a href="https://drive.google.com/file/d/1dHtVpVVNpz7QVzOVqsng76vGMhliNz6r/view?usp=sharing" target="_blank"  
+                  class="col-2" title="report">
+                    <i class="bi bi-file-earmark-pdf"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <!-- Disease mining -->
+       <div class="portfolio-item filter-ds">
+        <div class="portfolio-wrap card d-flex flex-row align-items-center">
+          <div class="col-3 offset-1 text-center">
+            <img data-gallery="portfolioGallery" class="portfolio-lightbox rounded" 
+              src="assets/img/projects/disease/mining.png" style="width: 100%">
+          </div>
+          <div class="col-3 offset-1 card-body portfolio-content">
+            <h5><strong>Disease Mining</strong></h5>
+            <p><span class="time">Dec 2018</span></p>
+            <p><em>Team Project (2018 Fall, Data Mining)</em></p>
+            <p>Data Analysis</p>
+            <ul>
+              <li>Apply frequent itemset mining to analyze relations between diseases and implicit factors of infection</li>
+              <li>Build three models utilizing decision tree/SVM/MLP respectively for disease infection warning</li>
+            </ul>
+            <p>
+              <span class="badge rounded-pill bg-secondary">Data Visualization</span>
+              <span class="badge rounded-pill bg-secondary">Data Mining</span>
+              <span class="badge rounded-pill bg-secondary">SVM</span>
+            </p>
+            <div class="portfolio-links align-content-center">
+              <a href="https://drive.google.com/file/d/1o2_JQEvtwt6nCxtlyUu1ZIevo9K3t5Vf/view?usp=sharing" target="_blank"  
+                class="col-2" title="introduction">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </a>
+              <a href="https://drive.google.com/file/d/1CE4BsY0LPu6j8EfHxfyLc6w47vrc8oZ7/view?usp=sharing" target="_blank"  
+                class="col-2" title="result">
+                <i class="bi bi-file-earmark-ppt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
         
       </div>
-
     </div>
   </section><!-- End Projects Section -->
 
